@@ -1,0 +1,159 @@
+/* GLOBAL STYLE */
+
+body
+{
+    font-family: 'Krub', sans-serif;
+}
+
+p
+{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+h1, h2, h3 
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 50px;
+    color:rgb(250, 143, 3);
+}
+
+h2
+{
+    font-size: 25px;
+    background-color: rgb(50, 205, 133);
+}
+
+h3
+{
+    font-size: 20px;
+    color:#03818a;
+}
+
+/* HEADER */
+
+header
+{
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    background-size: contain;
+    background-position: center;
+    color:rgb(250, 143, 3);
+    height:300px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.icon
+{
+    display:flex;
+    align-items: center; /* vertical align */
+    justify-content: space-evenly; /* horizontal align */
+    width: 60px;
+    height: 60px;
+    background-color: #ffe187; 
+    color:#03818a;
+    border-radius: 50%;   
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.main-contact{
+    height: 31vh;
+}
+
+{
+    text-align: center;
+}
+
+main p
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+/***** STYLE FOR MAIN MENU ******/
+    .menu
+    {
+        background-color: #212121;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .menu a
+    {
+        color:white;
+        text-decoration: none;
+        font-size:26px;
+        margin-right:20px;
+    }
+    .menu a:hover
+    {
+        color:#ffe187
+    }
+/***** STYLE FOR LISTS *****/
+    ul,ol
+    {
+        list-style-image: url(Icon.png);
+        background-color: rgb(45, 96, 155);
+        padding:20px;
+        width: 50%;
+    }
+    li
+    {
+        background-color:#d87f19;
+        padding: 5px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    li:hover
+    {   
+        background-color:white ;
+    }
+  /***** STYLE FOR BUTTONS *****/
+    .btn
+    {
+        background-color: #03818a;
+        color:white;
+        font-size: 18px;
+        display:block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+    }
+    .btn a
+    {
+       color:white;
+       text-decoration: none; 
+    }
+   /***** PRESENTATION CARD *****/
+    .card{
+        display:flex;
+        flex-wrap:wrap;
+        text-align:center;
+        background-color:#d87f19;
+        color: black;
+        width:40%;
+        border: 2px solid black;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 10px;
+   }
+    .card p{
+        font-size: 15px;
+        text-align: left;
+    }
+
+   
